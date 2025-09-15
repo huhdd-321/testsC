@@ -14,7 +14,7 @@ int main()
 	begin=0;
 	for(i=0;i<len;i++)
 	{
-		if(strchr(delimiters,sentence[i])!=NULL)
+		if(strchr(delimiters,sentence[i])!=NULL)//§PÂ_¤À¬ÉÂI 
 		{
 			end=i-1;
 			strncpy(word,sentence+begin,end-begin+1);
