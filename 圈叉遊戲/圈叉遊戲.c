@@ -56,7 +56,7 @@ int main()
 			}
 			printf("\n");
 		}
-		if(pos[row][0] == pos[row][2] && pos[row][2] == pos[row][4])//判斷左到右 
+		if(pos[row][0] == pos[row][2] && pos[row][2] == pos[row][4]) //判斷左到右 
 		{
 			printf("第%d人贏了\n",people+1);
 			break;
