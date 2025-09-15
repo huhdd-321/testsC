@@ -34,7 +34,7 @@ int main()
 				}
 			}	
 		}						   
-		if(i==36)		
+		if(i==36)//等於36就是魔羯		
 			printf("星座為:摩羯座\n");	
 		printf("再次使用?請按y或Y\n");
 		a=getche();	
