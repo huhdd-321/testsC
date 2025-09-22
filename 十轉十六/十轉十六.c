@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main() {
-    int num,power=1,result=0,i=0;
+    int num,power=1,result=0;
     char he[]={'A','B','C','D','E','F'};
     while(1)
     {
